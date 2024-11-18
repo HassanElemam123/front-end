@@ -1,0 +1,100 @@
+/* تدريب */
+
+.parent .child .title {
+    color: red;
+}
+
+.parent .title {
+    color: blue;
+}
+
+.dp,
+.title {
+    color: green;
+}  
+
+.one,
+.two,
+.three,
+.four {
+    color: blue;
+    max-width: 400px ;
+    padding: 10px ;
+    background-color: red ;
+    width: fit-content ;
+    max-width: 400px ;
+    max-height: 30px ;
+    overflow: hidden;
+}
+
+.font1 {
+    font-weight: bold ;
+    text-transform: uppercase;
+}
+
+.font2 {
+    font-weight: bold ;
+    text-transform: capitalize;
+}
+
+.font3 {
+    font-weight: bold ;
+    text-transform: lowercase;
+}
+
+.p1 {
+    width: 400px ;
+    background-color: antiquewhite;
+    padding: 15px ;
+    border-radius: 5px ;
+    margin: 20px ;
+}
+
+.p2 {
+    width: 400px ;
+    background-color: antiquewhite;
+    padding: 15px  ;
+    border-radius: 5px ;
+    max-height: 10px ;
+    overflow: hidden;
+    white-space: nowrap ;
+    word-break: break-word ;
+    margin: 20px ;
+}
+
+.p3 {
+    width: 400px ;
+    background-color: antiquewhite;
+    padding: 15px  ;
+    border-radius: 5px ;
+    max-height: 10px ;
+    overflow: hidden;
+    white-space: nowrap ;
+    text-overflow: ellipsis;
+    margin: 20px ;
+}
+
+.link {
+    color: white ;
+    background-color: yellowgreen ;
+    border-radius: 5px ;
+    padding: 10px ;
+    display: inline-block ;
+    text-decoration: none ;
+    border: 0 0 5px 0 green;
+    border-style: double;
+}
+
+.inh1 {
+    background-color: white ;
+    padding: 33px ;
+    font-size: 20px ;
+    text-align: center ;
+    border: 3px solid orange ;
+}
+
+.inh2{
+    background-color: lightgray ;
+    border: 3px solid orange ;
+    padding: 20px ;
+}
